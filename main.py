@@ -25,9 +25,6 @@ def scrape(url: str) -> dict:
     pattern = re.compile(r'\w+[ -](Year|YR)[.,]*? \w+ Co-?ops?\s*((in )?(\(?Fall/Winter\)?|\(?Spring/Summer\)?))?$', re.IGNORECASE)
     plan_names = div_tag.find_all(string=pattern)
 
-    with open("debug.html", "w") as f:
-        f.write(div_tag.prettify())
-
     tables = soup.find_all("table", {"class": "sc_plangrid"})
 
     data = {}
