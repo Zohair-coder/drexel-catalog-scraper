@@ -31,25 +31,21 @@ def test_scrape_architectural_studies_bs():
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different heading")
 def test_scrape_architecture_ba():
     url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/architecture/#sampleplanofstudy24text"
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_rotc():
     url = "https://catalog.drexel.edu/additionalacademicprograms/armyrotc/#planofstudy4yeartext"
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_arts_history_ba():
     url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/arthistory/#sampleplanofstudybatext"
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_arts_history_bs():
     url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/arthistorybs/#sampleplanofstudytext"
     data = scrape(url)
@@ -170,13 +166,11 @@ def test_scrape_custom_designed_bs():
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_dance_bs():
     url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/dance/#sampleplanofstudybstext"
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_dance_parttime_professional_option_bs():
     url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/dance_parttimeprofessional/index.html#sampleplanofstudytext"
     data = scrape(url)
@@ -237,7 +231,6 @@ def test_scrape_engineering_bs():
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_scrape_engineering_undeclared():
     url = "https://catalog.drexel.edu/undergraduate/collegeofengineering/engineeringundeclared/index.html#sampleplanofstudytext"
     data = scrape(url)
@@ -258,7 +251,6 @@ def test_entrepreneurship_and_innovation_ba():
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_entp_and_innovation_three_year_option():
     url = "https://catalog.drexel.edu/undergraduate/schoolofentrepreneurship/entrepreneurshipandinnovation-3year/index.html#sampleplanofstudytext"
     data = scrape(url)
@@ -284,7 +276,6 @@ def test_esport_business_bsba():
     data = scrape(url)
     assert len(data) > 0
 
-@pytest.mark.skip(reason="This plan has a significantly different structure")
 def test_exercise_science_bs():
     url = "https://catalog.drexel.edu/undergraduate/collegeofnursingandhealthprofessions/exercisescience/#sampleplanofstudytext"
     data = scrape(url)
@@ -307,5 +298,150 @@ def test_finance_bsba():
 
 def test_first_year_exploratory_studies():
     url = "https://catalog.drexel.edu/additionalacademicprograms/firstyearexploratorystudies/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_game_design_and_production_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/gamedesignandproduction/index.html#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_general_business_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofbusiness/generalbusiness/#sampleplanofstudybatext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_general_humanities_and_social_sciences_undeclared():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/generalhumanitiesandsocialsciences_undeclared/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_general_studies_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofprofessionalstudies/generalstudies/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_geoscience_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/geoscience/#sampleplansofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_global_public_health_ba():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofpublichealth/globalpublichealth/index.html#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_global_studies_ba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/globalstudies/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_graphic_design_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/graphicdesign/#sampleplanofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_health_data_analytics_bs():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofpublichealth/healthdataanalytics/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_health_sciences_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofnursingandhealthprofessions/healthsciences/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_health_services_administration_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofnursingandhealthprofessions/healthservicesadministration/#sampleplanofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_history_ba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/history/#sampleplanofstudybatext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_hospitality_management_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofnursingandhealthprofessions/hospitalitymanagement/index.html#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_human_development_and_counseling():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofnursingandhealthprofessions/humandevelopingandcounseling/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_information_systems_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofcomputingandinformatics/informationsystems/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_international_business_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/internationalbusiness/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_international_business_comajor_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/internationalbusinesscomajor/index.html#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_interior_design_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/interiordesign/#sampleplansofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_law_ba():
+    url = "https://catalog.drexel.edu/undergraduate/schooloflaw/law/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_learning_sciences_experience_design_and_technology_bs():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeducation/learningsciencesexperiencedesigntechnology/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_legal_studies_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofbusiness/legalstudies/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_management_information_systems_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofbusiness/managementinformationsystems/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_marketing_bsba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofbusiness/marketing/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_materials_science_and_engineering_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofengineering/materialsscienceandengineering/#sampleplanofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_mathematical_statistics_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/mathstatistics/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_mathematics_ba():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/mathematics/#sampleplansofstudybabstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_mathematics_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofartsandsciences/mathematicsbs/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_mechanical_engineering_and_mechanics_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofengineering/mechanicalengineering/#sampleplanofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_music_industry_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/musicindustry/#planofstudytext"
     data = scrape(url)
     assert len(data) > 0

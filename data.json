@@ -1,70 +1,82 @@
 {
-    "5 Year 3 Coop": {
+    "4-Year, 1 co-op": {
         "First Year": {
             "Fall": [
                 {
-                    "course": "CIVC 101",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "ECON 201",
-                    "credits": "4.0"
+                    "course": "CI 101",
+                    "credits": "2.0"
                 },
                 {
                     "course": "ENGL 101 or  111",
                     "credits": "3.0"
                 },
                 {
-                    "course": "MATH 101,  105,  116, or  121\u2020\u2020",
-                    "credits": "4.0-6.0"
-                },
-                {
-                    "course": "PSY 101",
+                    "course": "INFO 101",
                     "credits": "3.0"
                 },
                 {
-                    "course": "UNIV B101",
+                    "course": "INFO 151",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 171",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
                     "credits": "1.0"
                 }
             ],
             "Winter": [
                 {
-                    "course": "ECON 202",
-                    "credits": "4.0"
+                    "course": "CI 102",
+                    "credits": "2.0"
                 },
                 {
-                    "course": "ECON 270 (or Free elective)",
-                    "credits": "4.0"
+                    "course": "CIVC 101",
+                    "credits": "1.0"
                 },
                 {
-                    "course": "MATH 102,  121, or  117\u2020\u2020",
-                    "credits": "4.0"
+                    "course": "CS 171",
+                    "credits": "3.0"
                 },
                 {
                     "course": "ENGL 102 or  112",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 102",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 172",
                     "credits": "3.0"
                 }
             ],
             "Spring": [
                 {
-                    "course": "COM 230",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "COOP 101*",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "ECON 203 (or Free elective)",
-                    "credits": "4.0"
+                    "course": "CI 103",
+                    "credits": "2.0"
                 },
                 {
                     "course": "ENGL 103 or  113",
                     "credits": "3.0"
                 },
                 {
-                    "course": "Free elective",
+                    "course": "INFO 103",
                     "credits": "3.0"
+                },
+                {
+                    "course": "INFO 153 or CS  172",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 173",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
+                    "credits": "1.0"
                 }
             ],
             "Summer": [
@@ -77,252 +89,616 @@
         "Second Year": {
             "Fall": [
                 {
-                    "course": "ECON 301",
-                    "credits": "4.0"
+                    "course": "COOP 101*",
+                    "credits": "1.0"
                 },
                 {
-                    "course": "MKTG 201",
-                    "credits": "4.0"
+                    "course": "CT 140",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "PSY 330 (or Behavioral Science and Business elective)",
+                    "course": "CT 201",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 215",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "CT 301",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 330",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 210",
                     "credits": "3.0"
                 },
                 {
                     "course": "STAT 201",
                     "credits": "4.0"
-                }
-            ],
-            "Winter": [
-                {
-                    "course": "ECON 250",
-                    "credits": "4.0"
                 },
                 {
-                    "course": "ECON 350",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 365",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "MKTG 356",
-                    "credits": "4.0"
+                    "course": "Free Elective",
+                    "credits": "3.0"
                 }
             ],
             "Spring": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "CT 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 210",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 335",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 180",
+                    "credits": "4.0"
+                },
+                {
+                    "course": "Science Elective I",
+                    "credits": "4.0"
                 }
             ],
             "Summer": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "CT 310",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 320",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 355",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Science Elective II",
+                    "credits": "4.0"
                 }
             ]
         },
         "Third Year": {
             "Fall": [
                 {
-                    "course": "ECON 366",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 370",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ORGB 300",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Winter": [
                 {
-                    "course": "Behavioral Science and Business electives",
-                    "credits": "8.0"
-                },
-                {
-                    "course": "Empirical-Research elective/Free elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Spring": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "COM 230",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 310",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 365",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Computing Technology Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
                 }
             ],
             "Summer": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "INFO 324",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 366",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 420",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "6.0"
                 }
             ]
         },
         "Fourth Year": {
             "Fall": [
                 {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
+                    "course": "CT 355",
                     "credits": "3.0"
+                },
+                {
+                    "course": "CCI Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "6.0"
                 }
             ],
             "Winter": [
                 {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
+                    "course": "CT 362",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
+                    "course": "CT 491",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "ECON elective",
-                    "credits": "4.0"
+                    "course": "Computing Technology Elective",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "Free elective",
+                    "course": "Free Electives",
+                    "credits": "6.0"
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "CT 415",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 496",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "6.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                }
+            ]
+        }
+    },
+    "5-Year, 3 co-ops": {
+        "First Year": {
+            "Fall": [
+                {
+                    "course": "CI 101",
+                    "credits": "2.0"
+                },
+                {
+                    "course": "ENGL 101 or  111",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 101",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 151",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 171",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
+                    "credits": "1.0"
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "CI 102",
+                    "credits": "2.0"
+                },
+                {
+                    "course": "CIVC 101",
+                    "credits": "1.0"
+                },
+                {
+                    "course": "COOP 101*",
+                    "credits": "1.0"
+                },
+                {
+                    "course": "ENGL 102 or  112",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 102",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 152 or CS  171",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 172",
                     "credits": "3.0"
                 }
             ],
             "Spring": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "CI 103",
+                    "credits": "2.0"
+                },
+                {
+                    "course": "ENGL 103 or  113",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 103",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 153 or CS  172",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 173",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
+                    "credits": "1.0"
                 }
             ],
             "Summer": [
                 {
+                    "course": "VACATION",
+                    "credits": ""
+                }
+            ]
+        },
+        "Second Year": {
+            "Fall": [
+                {
                     "course": "COOP EXPERIENCE",
                     "credits": ""
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "CT 140",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 210",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 215",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 180",
+                    "credits": "4.0"
+                }
+            ],
+            "Summer": [
+                {
+                    "course": "CT 310",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 330",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 210",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "STAT 201",
+                    "credits": "4.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                }
+            ]
+        },
+        "Third Year": {
+            "Fall": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "CT 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 201",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 212",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Science Elective I",
+                    "credits": "4.0"
+                }
+            ],
+            "Summer": [
+                {
+                    "course": "CT 301",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 320",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 355",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Science Elective II",
+                    "credits": "4.0"
+                }
+            ]
+        },
+        "Fourth Year": {
+            "Fall": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "COM 230",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 312",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 310",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 365",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                }
+            ],
+            "Summer": [
+                {
+                    "course": "CT 412",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 324",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 420",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Computing Security Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
                 }
             ]
         },
         "Fifth Year": {
             "Fall": [
                 {
-                    "course": "UNIV B201",
-                    "credits": "1.0"
+                    "course": "CT 400",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "ECON elective",
-                    "credits": "4.0"
+                    "course": "CCI Elective",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "Free electives",
-                    "credits": "10.0"
+                    "course": "Computing Security Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
                 }
             ],
             "Winter": [
                 {
-                    "course": "ECON 322",
-                    "credits": "4.0"
+                    "course": "CT 432",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "ECON elective/Free elective",
-                    "credits": "4.0"
+                    "course": "CT 491",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "Free electives",
-                    "credits": "8.0"
+                    "course": "Free Electives",
+                    "credits": "9.0"
                 }
             ],
             "Spring": [
                 {
-                    "course": "Free electives",
-                    "credits": "13.0"
+                    "course": "CT 496",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CCI Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
                 }
             ]
         }
     },
-    "4 Year 1 Coop": {
+    "5-Year, 1 co-op": {
         "First Year": {
             "Fall": [
                 {
-                    "course": "CIVC 101",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "ECON 201",
-                    "credits": "4.0"
+                    "course": "CI 101",
+                    "credits": "2.0"
                 },
                 {
                     "course": "ENGL 101 or  111",
                     "credits": "3.0"
                 },
                 {
-                    "course": "MATH 101,  105,  116, or  121\u2020\u2020",
-                    "credits": "4.0-6.0"
-                },
-                {
-                    "course": "UNIV B101",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "PSY 101",
+                    "course": "INFO 101",
                     "credits": "3.0"
+                },
+                {
+                    "course": "INFO 151",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 171",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
+                    "credits": "1.0"
                 }
             ],
             "Winter": [
                 {
-                    "course": "ECON 202",
-                    "credits": "4.0"
+                    "course": "CI 102",
+                    "credits": "2.0"
                 },
                 {
-                    "course": "ECON 270 (or Free elective)",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ENGL 102 or  112",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "MATH 102,  121, or  117\u2020\u2020",
-                    "credits": "4.0"
-                }
-            ],
-            "Spring": [
-                {
-                    "course": "COM 230",
-                    "credits": "3.0"
+                    "course": "CIVC 101",
+                    "credits": "1.0"
                 },
                 {
                     "course": "COOP 101*",
                     "credits": "1.0"
                 },
                 {
-                    "course": "ECON 203 (or Free elective)",
-                    "credits": "4.0"
+                    "course": "ENGL 102 or  112",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 102",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 152 or CS  171",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 172",
+                    "credits": "3.0"
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "CI 103",
+                    "credits": "2.0"
                 },
                 {
                     "course": "ENGL 103 or  113",
                     "credits": "3.0"
                 },
                 {
-                    "course": "Free elective",
+                    "course": "INFO 103",
                     "credits": "3.0"
+                },
+                {
+                    "course": "INFO 153 or CS  172",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 173",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "UNIV CI101",
+                    "credits": "1.0"
                 }
             ],
             "Summer": [
@@ -335,69 +711,61 @@
         "Second Year": {
             "Fall": [
                 {
-                    "course": "ECON 301",
-                    "credits": "4.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Winter": [
+                {
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
+                }
+            ],
+            "Spring": [
+                {
+                    "course": "CT 140",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "MKTG 201",
-                    "credits": "4.0"
+                    "course": "CT 201",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "PSY 330 (or Behavioral Science and Business elective)",
+                    "course": "INFO 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 215",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "MATH 180",
+                    "credits": "4.0"
+                }
+            ],
+            "Summer": [
+                {
+                    "course": "CT 301",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 330",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 210",
                     "credits": "3.0"
                 },
                 {
                     "course": "STAT 201",
                     "credits": "4.0"
-                }
-            ],
-            "Winter": [
-                {
-                    "course": "ECON 250",
-                    "credits": "4.0"
                 },
                 {
-                    "course": "ECON 350",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 365",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "MKTG 356",
-                    "credits": "4.0"
-                }
-            ],
-            "Spring": [
-                {
-                    "course": "Behavioral Science and Business electives",
-                    "credits": "8.0"
-                },
-                {
-                    "course": "Empirical-Research elective/Free elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
-                }
-            ],
-            "Summer": [
-                {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
+                    "course": "Free Elective",
                     "credits": "3.0"
                 }
             ]
@@ -405,134 +773,72 @@
         "Third Year": {
             "Fall": [
                 {
-                    "course": "ECON 366",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 370",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ORGB 300",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Winter": [
                 {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Spring": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "CT 200",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 210",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 335",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Science Elective I",
+                    "credits": "4.0"
                 }
             ],
             "Summer": [
                 {
-                    "course": "COOP EXPERIENCE",
-                    "credits": ""
+                    "course": "CT 310",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CT 320",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 355",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Science Elective II",
+                    "credits": "4.0"
                 }
             ]
         },
         "Fourth Year": {
             "Fall": [
                 {
-                    "course": "UNIV B201",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free electives",
-                    "credits": "10.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Winter": [
                 {
-                    "course": "ECON 322",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective/Free elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free electives",
-                    "credits": "8.0"
-                }
-            ],
-            "Spring": [
-                {
-                    "course": "Free electives",
-                    "credits": "13.0"
-                }
-            ]
-        }
-    },
-    "4 Year No Coop": {
-        "First Year": {
-            "Fall": [
-                {
-                    "course": "CIVC 101",
-                    "credits": "1.0"
-                },
-                {
-                    "course": "ECON 201",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ENGL 101 or  111",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "MATH 101,  105,  116, or  121\u2020\u2020",
-                    "credits": "4.0-6.0"
-                },
-                {
-                    "course": "PSY 101",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "UNIV B101",
-                    "credits": "1.0"
-                }
-            ],
-            "Winter": [
-                {
-                    "course": "ECON 202",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 270 (or Free elective)",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ENGL 102 or  112",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "MATH 102,  121, or  117\u2020\u2020",
-                    "credits": "4.0"
+                    "course": "COOP EXPERIENCE",
+                    "credits": ""
                 }
             ],
             "Spring": [
@@ -541,182 +847,94 @@
                     "credits": "3.0"
                 },
                 {
-                    "course": "ENGL 103 or  113",
+                    "course": "INFO 310",
                     "credits": "3.0"
                 },
                 {
-                    "course": "ECON 203 (or Free elective)",
-                    "credits": "4.0"
+                    "course": "INFO 365",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Computing Technology Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
+                }
+            ],
+            "Summer": [
+                {
+                    "course": "INFO 324",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 366",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "INFO 420",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "6.0"
+                }
+            ]
+        },
+        "Fifth Year": {
+            "Fall": [
+                {
+                    "course": "CT 355",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "CCI Elective",
+                    "credits": "6.0"
+                },
+                {
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
                 },
                 {
                     "course": "Free Elective",
-                    "credits": "4.0"
-                }
-            ],
-            "Summer": [
-                {
-                    "course": "VACATION",
-                    "credits": ""
-                }
-            ]
-        },
-        "Second Year": {
-            "Fall": [
-                {
-                    "course": "ECON 301",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "STAT 201",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "PSY 330 (or Behavioral Science and Business elective)",
-                    "credits": "3.0"
-                },
-                {
-                    "course": "MKTG 201",
-                    "credits": "4.0"
-                }
-            ],
-            "Winter": [
-                {
-                    "course": "ECON 250",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 350",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 365",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "MKTG 356",
-                    "credits": "4.0"
-                }
-            ],
-            "Spring": [
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Empirical-Research elective/Free elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
-                    "credits": "3.0"
-                }
-            ],
-            "Summer": [
-                {
-                    "course": "VACATION",
-                    "credits": ""
-                }
-            ]
-        },
-        "Third Year": {
-            "Fall": [
-                {
-                    "course": "ECON 366",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON 370",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ORGB 300",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
                     "credits": "3.0"
                 }
             ],
             "Winter": [
                 {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
+                    "course": "CT 362",
                     "credits": "3.0"
+                },
+                {
+                    "course": "CT 491",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Computing Technology Elective",
+                    "credits": "3.0"
+                },
+                {
+                    "course": "Free Electives",
+                    "credits": "6.0"
                 }
             ],
             "Spring": [
                 {
-                    "course": "Behavioral Economics elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Behavioral Science and Business elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "ECON elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free elective",
+                    "course": "CT 415",
                     "credits": "3.0"
-                }
-            ],
-            "Summer": [
-                {
-                    "course": "VACATION",
-                    "credits": ""
-                }
-            ]
-        },
-        "Fourth Year": {
-            "Fall": [
-                {
-                    "course": "UNIV B201",
-                    "credits": "1.0"
                 },
                 {
-                    "course": "ECON elective",
-                    "credits": "4.0"
+                    "course": "CT 496",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "Free electives",
-                    "credits": "10.0"
-                }
-            ],
-            "Winter": [
-                {
-                    "course": "ECON 322",
-                    "credits": "4.0"
+                    "course": "Free Elective",
+                    "credits": "3.0"
                 },
                 {
-                    "course": "ECON elective/Free elective",
-                    "credits": "4.0"
-                },
-                {
-                    "course": "Free electives",
-                    "credits": "8.0"
-                }
-            ],
-            "Spring": [
-                {
-                    "course": "Free electives",
-                    "credits": "13.0"
+                    "course": "Liberal Studies Elective",
+                    "credits": "3.0"
                 }
             ]
         }

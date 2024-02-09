@@ -5,7 +5,7 @@ from collections import defaultdict
 import re
 
 def main():
-    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/behavioraleconomicsbusinessandorganizations/#sampleplanofstudytext"
+    url = "https://catalog.drexel.edu/undergraduate/collegeofcomputingandinformatics/computingandsecuritytechnology/#sampleplansofstudytext"
     data = scrape(url)
     with open('data.json', 'w') as f:
         f.write(json.dumps(data, indent=4))
@@ -19,7 +19,8 @@ def scrape(url: str) -> dict:
     div_tag = soup.find('div', id=pattern)
 
     if not div_tag:
-        div_tag = soup.find('h2', text="Sample Plan of Study").parent
+        pattern = re.compile(r'.*Plans? of Study.*', re.IGNORECASE)
+        div_tag = soup.find('h2', text=pattern).parent
 
 
     pattern = re.compile(r"(\w+[ -](Years?|YR)[.,]*?\s*\w*\s*Co-?ops?\s*((in )?(\(?Fall\/Winter\)?|\(?Spring\/Summer\)?))?\s?(Cycle)?$)|((Fall Winter|Spring Summer) co-op cycle)", re.IGNORECASE)
@@ -28,7 +29,7 @@ def scrape(url: str) -> dict:
     tables = soup.find_all("table", {"class": "sc_plangrid"})
 
     data = {}
-    for i, plan_name in enumerate(plan_names):
+    for i, table in enumerate(tables):
         table = tables[i]
         years = table.find_all("tr", {"class": "plangridyear"})
     
@@ -59,7 +60,8 @@ def scrape(url: str) -> dict:
         
             years_data[year_text] = term_data
         
-        data[plan_name.text.replace("&nbsp;", " ").replace("\u00a0", " ").strip()] = years_data
+        plan_name = plan_names[i].text if i < len(plan_names) else f"Plan {i+1}"
+        data[plan_name.replace("&nbsp;", " ").replace("\u00a0", " ").strip()] = years_data
     
     return data
 
