@@ -3,6 +3,7 @@ from collections import defaultdict
 from helpers import send_request
 from bs4 import BeautifulSoup
 import os
+from tqdm import tqdm
 
 
 def scrape() -> dict:
@@ -27,14 +28,16 @@ def scrape() -> dict:
             future = executor.submit(scrape_page, link)
             futures[future] = major
         
-        for i, future in enumerate(as_completed(futures)):
-            major = futures[future]
-            
-            try:
-                data[major] = future.result()
-                print(f"({i+1}/{len(futures)}) Scraped {major}")
-            except Exception as e:
-                print(f"({i+1}/{len(futures)}) Failed to scrape {major}: {e}")
+        print()
+        with tqdm(total=len(futures)) as pbar:
+            for future in as_completed(futures):
+                major = futures[future]
+                try:
+                    data[major] = future.result()
+                except Exception as e:
+                    print(f"Failed to scrape {major}: {e}")
+                pbar.update(1)
+        print()
     
     return data
         

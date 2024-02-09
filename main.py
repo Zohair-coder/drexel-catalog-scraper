@@ -7,6 +7,8 @@ def main():
 
     with open('data.json', 'w') as f:
         f.write(json.dumps(data, indent=4))
+    
+    print("Data written to data.json")
 
 if __name__ == "__main__":
     main()
