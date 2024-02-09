@@ -1,10 +1,33 @@
 from collections import defaultdict
 import re
-import requests
+from helpers import send_request
 from bs4 import BeautifulSoup
 
-def scrape(url: str) -> dict:
-    page = requests.get(url)
+
+def scrape() -> dict:
+    base_url = "https://catalog.drexel.edu"
+    majors_url = base_url + "/majors"
+    page = send_request(majors_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    main_div = soup.find("div", {"id": "textcontainer"})
+
+    anchor_tags = main_div.find_all("a", href=True)
+    anchor_tags = list(filter(lambda l: not l["href"].startswith("#") and l["href"] != "/accelerateddegreeprograms/" and l["href"] != "/certificates/", anchor_tags))
+
+    data = {}
+    for i, anchor_tag in enumerate(anchor_tags):
+        link = base_url + anchor_tag["href"] + "#sampleplanofstudybstext"
+        
+        major = anchor_tag.text
+        data[major] = scrape_page(link)
+        print(f"({i+1}/{len(anchor_tags)}) Scraped {major}")
+    
+    return data
+        
+
+def scrape_page(url: str) -> dict:
+    page = send_request(url)
 
     soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -13,7 +36,10 @@ def scrape(url: str) -> dict:
 
     if not div_tag:
         pattern = re.compile(r'.*Plans? of Study.*', re.IGNORECASE)
-        div_tag = soup.find('h2', string=pattern).parent
+        h2_tag = soup.find('h2', string=pattern)
+        if not h2_tag:
+            return {}
+        div_tag = h2_tag.parent
 
 
     pattern = re.compile(r"(\w+[ -](Years?|YR)[.,]*?\s*\w*\s*Co-?ops?\s*((in )?(\(?Fall\/Winter\)?|\(?Spring\/Summer\)?))?\s?(Cycle)?$)|((Fall Winter|Spring Summer) co-op cycle)", re.IGNORECASE)
