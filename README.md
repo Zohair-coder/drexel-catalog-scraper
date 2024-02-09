@@ -2,7 +2,7 @@ Scrapes the Drexel Catalog and outputs a JSON file with the data.
 
 ## Setup
 
-1. Install Python 3.6 or later
+1. Install Python 3.8 or later
 
 2. Install the required packages using pip:
 
