@@ -2175,7 +2175,7 @@
                         "credits": "4.0"
                     },
                     {
-                        "course": "PHYS 102***",
+                        "course": "PHYS 102",
                         "credits": "4.0"
                     }
                 ],
@@ -2205,7 +2205,7 @@
                         "credits": "3.0"
                     },
                     {
-                        "course": "PHYS 201***",
+                        "course": "PHYS 201",
                         "credits": "4.0"
                     }
                 ],
@@ -2259,12 +2259,12 @@
                         "credits": "3.0"
                     },
                     {
-                        "course": "CIVE 320",
-                        "credits": "3.0"
-                    },
-                    {
                         "course": "CAEE 212",
                         "credits": "4.0"
+                    },
+                    {
+                        "course": "CIVE 320",
+                        "credits": "3.0"
                     },
                     {
                         "course": "MEM 230",
@@ -2285,8 +2285,12 @@
                         "credits": "4.0"
                     },
                     {
-                        "course": "General Education Electives\u2020",
-                        "credits": "6.0"
+                        "course": "General Education Elective\u2020",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "Free Elective",
+                        "credits": "3.0"
                     }
                 ],
                 "Spring": [
@@ -2317,12 +2321,8 @@
                         "credits": "4.0"
                     },
                     {
-                        "course": "Free elective",
-                        "credits": "3.0"
-                    },
-                    {
-                        "course": "General Education Elective\u2020",
-                        "credits": "3.0"
+                        "course": "CIVE 312",
+                        "credits": "4.0"
                     }
                 ],
                 "Winter": [
@@ -2339,11 +2339,11 @@
                         "credits": "3.0"
                     },
                     {
-                        "course": "General Education Elective\u2020",
-                        "credits": "3.0"
+                        "course": "MEM 238",
+                        "credits": "4.0"
                     },
                     {
-                        "course": "Professional elective\u2020",
+                        "course": "General Education elective\u2020",
                         "credits": "3.0"
                     }
                 ],
@@ -2367,10 +2367,6 @@
                         "credits": "3.0"
                     },
                     {
-                        "course": "AE 455",
-                        "credits": "3.0"
-                    },
-                    {
                         "course": "ARCH 143",
                         "credits": "3.0"
                     },
@@ -2381,41 +2377,49 @@
                     {
                         "course": "CAEE 361",
                         "credits": "3.0"
+                    },
+                    {
+                        "course": "CIVE 400",
+                        "credits": "3.0"
                     }
                 ],
                 "Winter": [
-                    {
-                        "course": "AE 410",
-                        "credits": "3.0"
-                    },
                     {
                         "course": "CAE 492",
                         "credits": "3.0"
                     },
                     {
-                        "course": "CMGT 467",
+                        "course": "CIVE 315",
                         "credits": "4.0"
                     },
                     {
+                        "course": "CIVE 401",
+                        "credits": "3.0"
+                    },
+                    {
                         "course": "Professional Elective\u2020",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "General Education elective\u2020",
                         "credits": "3.0"
                     }
                 ],
                 "Spring": [
                     {
-                        "course": "AE 430",
-                        "credits": "3.0"
-                    },
-                    {
                         "course": "CAE 493",
                         "credits": "3.0"
                     },
                     {
-                        "course": "CMGT 361",
+                        "course": "CIVE 402",
                         "credits": "3.0"
                     },
                     {
-                        "course": "Professional Elective\u2020",
+                        "course": "Professional elective\u2020",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "General Education elective\u2020",
                         "credits": "3.0"
                     }
                 ]
@@ -2704,6 +2708,320 @@
                     },
                     {
                         "course": "Professional elective\u2020",
+                        "credits": "3.0"
+                    }
+                ]
+            }
+        },
+        "5 YR UG Co-op Digital Building Concentration": {
+            "First Year": {
+                "Fall": [
+                    {
+                        "course": "CHEM 101*",
+                        "credits": "3.5"
+                    },
+                    {
+                        "course": "COOP 101**",
+                        "credits": "1.0"
+                    },
+                    {
+                        "course": "ENGL 101 or  111",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGR 111",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "MATH 121***",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "UNIV E101",
+                        "credits": "1.0"
+                    }
+                ],
+                "Winter": [
+                    {
+                        "course": "CHEM 102",
+                        "credits": "4.5"
+                    },
+                    {
+                        "course": "CIVC 101",
+                        "credits": "1.0"
+                    },
+                    {
+                        "course": "ENGR 131 or  132",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "MATH 122",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "PHYS 101***",
+                        "credits": "4.0"
+                    }
+                ],
+                "Spring": [
+                    {
+                        "course": "BIO 141",
+                        "credits": "4.5"
+                    },
+                    {
+                        "course": "ENGL 102 or  112",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGR 113",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "MATH 200",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "PHYS 102***",
+                        "credits": "4.0"
+                    }
+                ],
+                "Summer": [
+                    {
+                        "course": "VACATION",
+                        "credits": ""
+                    }
+                ]
+            },
+            "Second Year": {
+                "Fall": [
+                    {
+                        "course": "CAEE 202",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGR 220",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "ENGR 231 or CAEE  231",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "MEM 202",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "PHYS 201***",
+                        "credits": "4.0"
+                    }
+                ],
+                "Winter": [
+                    {
+                        "course": "ARCH 191",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAEE 203",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CIVE 240",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGL 103 or  113",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGR 210",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ENGR 232 or CAEE  232",
+                        "credits": "3.0"
+                    }
+                ],
+                "Spring": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ],
+                "Summer": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ]
+            },
+            "Third Year": {
+                "Fall": [
+                    {
+                        "course": "AE 340",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ARCH 192",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CIVE 320",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAEE 212",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "MEM 230",
+                        "credits": "4.0"
+                    }
+                ],
+                "Winter": [
+                    {
+                        "course": "AE 220",
+                        "credits": "3.5"
+                    },
+                    {
+                        "course": "CIVE 250",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "CIVE 330",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "General Education Electives\u2020",
+                        "credits": "6.0"
+                    }
+                ],
+                "Spring": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ],
+                "Summer": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ]
+            },
+            "Fourth Year": {
+                "Fall": [
+                    {
+                        "course": "AE 390",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "ARCH 141",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CIVE 302",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "Free elective",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "General Education Elective\u2020",
+                        "credits": "3.0"
+                    }
+                ],
+                "Winter": [
+                    {
+                        "course": "AE 391",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "ARCH 142",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CIVE 303",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "General Education Elective\u2020",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "Professional elective\u2020",
+                        "credits": "3.0"
+                    }
+                ],
+                "Spring": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ],
+                "Summer": [
+                    {
+                        "course": "COOP EXPERIENCE",
+                        "credits": ""
+                    }
+                ]
+            },
+            "Fifth Year": {
+                "Fall": [
+                    {
+                        "course": "AE 444",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "AE 455",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "ARCH 143",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAE 491",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAEE 361",
+                        "credits": "3.0"
+                    }
+                ],
+                "Winter": [
+                    {
+                        "course": "AE 410",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAE 492",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CMGT 467",
+                        "credits": "4.0"
+                    },
+                    {
+                        "course": "Professional Elective\u2020",
+                        "credits": "3.0"
+                    }
+                ],
+                "Spring": [
+                    {
+                        "course": "AE 430",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CAE 493",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "CMGT 361",
+                        "credits": "3.0"
+                    },
+                    {
+                        "course": "Professional Elective\u2020",
                         "credits": "3.0"
                     }
                 ]
@@ -4117,7 +4435,7 @@
         }
     },
     "Army ROTC": {
-        "Plan 1": {
+        "Plan of Study (4 year, 1 co-op)": {
             "First Year": {
                 "Fall": [
                     {
@@ -8219,7 +8537,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-ops (Fall/Winter)": {
             "First Year": {
                 "Fall": [
                     {
@@ -10941,7 +11259,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-ops (Fall/Winter)": {
             "First Year": {
                 "Fall": [
                     {
@@ -27688,7 +28006,7 @@
                 ]
             }
         },
-        "4 year, 1 coop (Spring/Summer)": {
+        "4 year, 1 coop (Fall/Winter - London Option)": {
             "First Year": {
                 "Fall": [
                     {
@@ -27984,7 +28302,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "4 year, 1 coop (Spring/Summer)": {
             "First Year": {
                 "Fall": [
                     {
@@ -38056,7 +38374,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "4-Year No Coop Plan of Study": {
             "First Year": {
                 "Fall": [
                     {
@@ -41266,7 +41584,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 year, one coop, Spring/Summer": {
             "First Year": {
                 "Fall": [
                     {
@@ -41530,7 +41848,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 coop, Spring/Summer": {
             "First Year": {
                 "Fall": [
                     {
@@ -42624,7 +42942,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "4 year, 1 coop: Study Abroad (Spring/Summer)": {
             "First Year": {
                 "Fall": [
                     {
@@ -46672,7 +46990,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-ops (Fall/Winter)": {
             "First Year": {
                 "Fall": [
                     {
@@ -51262,7 +51580,7 @@
         }
     },
     "History (BA)": {
-        "Plan 1": {
+        "4 year, no co-op - No concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -51486,7 +51804,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 year, 1 co-op - No concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -51714,7 +52032,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-ops - No concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -51968,7 +52286,7 @@
                 ]
             }
         },
-        "Plan 4": {
+        "4 year, no co-op - Science, Technology, and Environment Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -52192,7 +52510,7 @@
                 ]
             }
         },
-        "Plan 5": {
+        "4 year, 1 co-op - Science, Technology, and Environment Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -52420,7 +52738,7 @@
                 ]
             }
         },
-        "Plan 6": {
+        "5 year, 3 co-ops - Science, Technology, and Environment Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -52674,7 +52992,7 @@
                 ]
             }
         },
-        "Plan 7": {
+        "4 year, no co-op - Global History Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -52902,7 +53220,7 @@
                 ]
             }
         },
-        "Plan 8": {
+        "4 year, one co-op - Global History Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -53138,7 +53456,7 @@
                 ]
             }
         },
-        "Plan 9": {
+        "5 year, three co-ops - Global History Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -54826,7 +55144,7 @@
         }
     },
     "Information Systems (BS)": {
-        "Plan 1": {
+        "5 YR UG Co-op Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -55128,7 +55446,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 YR UG Co-op Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -55946,7 +56264,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-op (Fall Winter)": {
             "First Year": {
                 "Fall": [
                     {
@@ -64872,7 +65190,7 @@
         }
     },
     "NEW: Neuroscience (BS)": {
-        "Plan 1": {
+        "4 year, No co-op, Cell & Molecular Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -65148,7 +65466,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 year, 1 co-op, Cell & Molecular Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -65432,7 +65750,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "4 year, No co-op, Cognitive & Affective Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -65716,7 +66034,7 @@
                 ]
             }
         },
-        "Plan 4": {
+        "4 year, 1 co-op, Cognitive & Affective Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -66000,7 +66318,7 @@
                 ]
             }
         },
-        "Plan 5": {
+        "4 year, No co-op, Neurosystems & Computational Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -66280,7 +66598,7 @@
                 ]
             }
         },
-        "Plan 6": {
+        "4 year, 1 co-op, Neurosystems & Computational Neuroscience Concentration": {
             "First Year": {
                 "Fall": [
                     {
@@ -72909,7 +73227,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 year, 1 co-op*": {
             "First Year": {
                 "Fall": [
                     {
@@ -73157,7 +73475,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 Co-ops*": {
             "First Year": {
                 "Fall": [
                     {
@@ -75916,7 +76234,7 @@
         }
     },
     "Software Engineering (BS)": {
-        "Plan 1": {
+        "5 year, 3 coop (Spring/Summer Cycle)": {
             "First Year": {
                 "Fall": [
                     {
@@ -76238,7 +76556,7 @@
                 ]
             }
         },
-        "Plan 2": {
+        "4 year, 1 coop (Spring/Summer Cycle)": {
             "First Year": {
                 "Fall": [
                     {
@@ -78729,7 +79047,7 @@
                 ]
             }
         },
-        "5 year, 3 co-op (Fall/Winter)": {
+        "4 year, one co-op (Fall/Spring)": {
             "First Year": {
                 "Fall": [
                     {
@@ -78977,7 +79295,7 @@
                 ]
             }
         },
-        "Plan 3": {
+        "5 year, 3 co-op (Fall/Winter)": {
             "First Year": {
                 "Fall": [
                     {

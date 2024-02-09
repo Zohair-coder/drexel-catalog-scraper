@@ -42,7 +42,8 @@ def scrape_page(url: str) -> dict:
         div_tag = h2_tag.parent
 
 
-    pattern = re.compile(r"(\w+[ -](Years?|YR)[.,]*?\s*\w*\s*Co-?ops?\s*((in )?(\(?Fall\/Winter\)?|\(?Spring\/Summer\)?))?\s?(Cycle)?$)|((Fall Winter|Spring Summer) co-op cycle)", re.IGNORECASE)
+    # Example: "4 year, 1 co-op"
+    pattern = re.compile(r"(\w+[- ](?:Years?|YR)[.,]*\s*\w*\s*Co-?ops?\s*(?:\(?Fall\/Winter\)?|\(?Spring\/Summer\)?\s?Cycle)?)|((Fall Winter|Spring Summer) co-op cycle)", re.IGNORECASE)
     plan_names = div_tag.find_all(string=pattern)
 
     tables = soup.find_all("table", {"class": "sc_plangrid"})
