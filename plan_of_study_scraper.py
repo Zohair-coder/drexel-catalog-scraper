@@ -27,14 +27,14 @@ def scrape() -> dict:
             future = executor.submit(scrape_page, link)
             futures[future] = major
         
-        for future in as_completed(futures):
+        for i, future in enumerate(as_completed(futures)):
             major = futures[future]
             
             try:
                 data[major] = future.result()
-                print(f"Scraped {major}")
+                print(f"({i+1}/{len(futures)}) Scraped {major}")
             except Exception as e:
-                print(f"Failed to scrape {major}: {e}")
+                print(f"({i+1}/{len(futures)}) Failed to scrape {major}: {e}")
     
     return data
         
