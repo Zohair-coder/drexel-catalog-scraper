@@ -18,8 +18,11 @@ def scrape(url: str) -> dict:
     pattern = re.compile(r'sampleplans?ofstudy.*container')
     div_tag = soup.find('div', id=pattern)
 
+    if not div_tag:
+        div_tag = soup.find('h2', text="Sample Plan of Study").parent
 
-    pattern = re.compile(r'\w+[ -](Year|YR)[.,]*? \w+ Co-?ops?\s*(in (Fall/Winter|Spring/Summer))?$', re.IGNORECASE)
+
+    pattern = re.compile(r'\w+[ -](Year|YR)[.,]*? \w+ Co-?ops?\s*((in )?(\(?Fall/Winter\)?|\(?Spring/Summer\)?))?$', re.IGNORECASE)
     plan_names = div_tag.find_all(string=pattern)
 
     with open("debug.html", "w") as f:

@@ -169,3 +169,50 @@ def test_scrape_custom_designed_bs():
     url = "https://catalog.drexel.edu/undergraduate/honorscollege/custom-designedmajor/#sampleplanofstudytext"
     data = scrape(url)
     assert len(data) > 0
+
+@pytest.mark.skip(reason="This plan has a significantly different structure")
+def test_scrape_dance_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/dance/#sampleplanofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+@pytest.mark.skip(reason="This plan has a significantly different structure")
+def test_scrape_dance_parttime_professional_option_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/dance_parttimeprofessional/index.html#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_data_science_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofcomputingandinformatics/datascience/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_design_and_merchandising_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/designandmerchandising/#sampleplansofstudybstext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_digital_media_and_virtual_production_bs():
+    url = "https://catalog.drexel.edu/undergraduate/collegeofmediaartsanddesign/digitalmediaandvirtualproduction/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_economic_analysis():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/economics/#newitemtext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_economics_bs():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/economicsbs/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_economics_and_buisness_bs():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/economicsandbusiness/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
+
+def test_scrape_economics_and_data_science_bs():
+    url = "https://catalog.drexel.edu/undergraduate/schoolofeconomics/economicsanddatascience/#sampleplanofstudytext"
+    data = scrape(url)
+    assert len(data) > 0
