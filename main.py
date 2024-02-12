@@ -3,6 +3,8 @@ import json
 import plan_of_study_scraper
 
 def main():
+
+    print("Scraping plan of study data...")
     data = plan_of_study_scraper.scrape()
 
     with open('data.json', 'w') as f:
